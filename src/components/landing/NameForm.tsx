@@ -18,7 +18,7 @@ export const NameForm = ({ setName, onComplete }: NameFormProps) => {
   return (
     <div className='flex flex-col items-center justify-center p-4  relative top-8'>
       <h1 className='text-8xl space-crusaders-italic text-white mb-12 '>
-        Stop Zephyros!
+        Matrix!
       </h1>
 
       <div className='bg-slate-700 rounded-lg p-12 w-full max-w-md'>
