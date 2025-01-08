@@ -1,0 +1,23 @@
+.azonix {
+  font-family: "Azonix";
+}
+.space-crusaders-italic {
+  font-family: "Space Crusaders Italic";
+}
+.creato-display {
+  font-family: "Creato Display";
+}
+.creato-display-italic {
+  font-family: "Creato Display Italic";
+}
+.creato-display-thin {
+  font-family: "Creato Display Thin";
+}
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

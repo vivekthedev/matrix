@@ -1,0 +1,37 @@
+.bg-level-one {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../assets/clue_lv_one.png") no-repeat bottom left / 10%,
+    url("../../assets/scene_level_one.jpg") no-repeat center center / cover;
+  background-size: auto 25px cover;
+}
+
+.bg-level-two {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../assets/clue_lv_two.png") no-repeat bottom left / 10%,
+    url("../../assets/scene_level_two.jpg") no-repeat center center / cover;
+  background-size: auto 25px cover;
+}
+
+.card-pattern {
+  background-image: url("../../assets/card-pattern.jpg");
+  background-size: cover;
+}
+
+.bg-level-three {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../assets/clue_lv_three.png") repeat-x bottom left / 8%,
+    url("../../assets/clue_lv_three.png") repeat-x top left / 8%,
+    url("../../assets/scene_level_three.jpg") no-repeat center center / cover;
+  background-size: auto 25px cover;
+}
+
+.bg-level-four {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../assets/clue_lv_four.png") no-repeat top left / 8%,
+    url("../../assets/scene_level_four.jpg") no-repeat center center / cover;
+}
+
+.bg-level-five {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../assets/scene_level_four.jpg") no-repeat center center / cover;
+}

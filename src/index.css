@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Azonix";
+  src: url("/fonts/Azonix.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Space Crusaders Italic";
+  src: url("/fonts/SpaceCrusadersItalic-ZV1Zx.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Creato Display";
+  src: url("/fonts/CreatoDisplay-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Creato Display Italic";
+  src: url("/fonts/CreatoDisplay-RegularItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Creato Display Thin";
+  src: url("/fonts/CreatoDisplay-Thin.otf") format("opentype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
