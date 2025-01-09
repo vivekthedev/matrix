@@ -10,7 +10,7 @@ import LevelFour from "./pages/Levels/LevelFour";
 import LevelFive from "./pages/Levels/LevelFive";
 function App() {
   const [name, setName] = useState("Vivek");
-  const [stage, setStage] = useState("levelGrid");
+  const [stage, setStage] = useState("home");
   const onComplete = (nextStageName: string) => {
     setStage(nextStageName);
   };
