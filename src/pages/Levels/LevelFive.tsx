@@ -20,7 +20,7 @@ const commands = {
     description: "Concatenate files and print on the standard output.",
     fn: (...args: any) => {
       if (args[0] === "instructions.txt") {
-        return "Decrypt the file main.so. Where the key could possibly be? ";
+        return "DECODE the file main.so. Where the key could possibly be? ";
       }
       return "File not found";
     },
@@ -122,7 +122,7 @@ const LevelFour = ({ onComplete }: LevelFiveProps) => {
         <FinishedLevel
           name={"fifth"}
           number={"6"}
-          next={"level_6"}
+          next={"levelGrid"}
           onComplete={onComplete}
         />
       )}

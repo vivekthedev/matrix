@@ -9,7 +9,7 @@ import LevelThree from "./pages/Levels/LevelThree";
 import LevelFour from "./pages/Levels/LevelFour";
 import LevelFive from "./pages/Levels/LevelFive";
 function App() {
-  const [name, setName] = useState("Vivek");
+  const [name, setName] = useState("");
   const [stage, setStage] = useState("home");
   const onComplete = (nextStageName: string) => {
     setStage(nextStageName);

@@ -15,7 +15,7 @@ const FinishedLevel = ({
   onComplete,
 }: FinishedLevelProps) => {
   const { width, height } = useWindowSize();
-  localStorage.setItem("level", name);
+  localStorage.setItem("level", number);
 
   return (
     <>
@@ -27,7 +27,7 @@ const FinishedLevel = ({
           Congratulations!
         </div>
         <div className='text-white  text-3xl text-center unselectable '>
-          You have completed the {number} level.
+          You have completed the {name} level.
         </div>
         <button
           onClick={() => onComplete(next)}

@@ -11,7 +11,7 @@ export const NameForm = ({ setName, onComplete }: NameFormProps) => {
     e.preventDefault();
     if (input.trim()) {
       setName(input);
-      onComplete("story");
+      onComplete("levelGrid");
     }
   };
 

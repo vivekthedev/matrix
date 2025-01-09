@@ -13,11 +13,9 @@ const LevelThree = ({ onComplete }: LevelThreeProps) => {
   const [completed, setCompleted] = useState(false);
   const [inputValues, setInputValues] = useState(Array(8).fill(""));
   const [answer, setAnswer] = useState("");
-  const [grid, setGrid] = useState(
-    Array(8)
-      .fill(null)
-      .map(() => Array(8).fill(false))
-  );
+  let grid = Array(8)
+    .fill(null)
+    .map(() => Array(8).fill(false));
   const whiteShadeCells = [
     [0, 1],
     [0, 4],

@@ -32,13 +32,8 @@ const LevelTwo = ({ onComplete }: LevelTwoProps) => {
     { index: number; value: number }[]
   >([]);
   const [lockedCards, setLockedCards] = useState<number[]>([]);
-  const letters = ["B", "I", "D", "T", "C", "S", "L", "N", "F", "Q", "V", "X"];
-  for (let i = letters.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [letters[i], letters[j]] = [letters[j], letters[i]];
-  }
-
-  const answers = [139, 152, 150, 154, 151, 174];
+  const letters = ["u", ":", "D", "-", "#", "0", "Z", "J", "f", "`", "!", '"'];
+  const answers = [83, 192, 78, 126, 213, 108];
 
   const checkSum = () => {
     if (flippedCards.length === 2) {
@@ -85,6 +80,7 @@ const LevelTwo = ({ onComplete }: LevelTwoProps) => {
         flipped ? 1.02 : 1
       })`,
       config: { tension: 400, friction: 25 },
+      immediate: true,
     });
 
     const handleClick = () => {

@@ -27,11 +27,10 @@
 
 .bg-level-four {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../../assets/clue_lv_four.png") no-repeat top left / 8%,
     url("../../assets/scene_level_four.jpg") no-repeat center center / cover;
 }
 
 .bg-level-five {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../../assets/scene_level_four.jpg") no-repeat center center / cover;
+    url("../../assets/scene_level_five.jpg") no-repeat center center / cover;
 }
