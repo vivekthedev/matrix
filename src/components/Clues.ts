@@ -1,5 +1,5 @@
 export const CluesLevelOne = [
-    "Hello, I am the Nexus. I am here to help you.",
+    "Hello, I am the Nexus. I am here to help you. Welcome to the Matrix, in each level you are required to use a Computer Science concept and think like a developer in order to beat the level.",
     "You have entered the first level.",
     "Here you can see a 5*3 grid of switches.",
     "You can toggle the switches by clicking on them.",
